@@ -1,3 +1,3 @@
-# Tölvugrafík
+# Tölvugrafík, Vor 2022
 ## Verkefni 2 
-Vor 2022
+

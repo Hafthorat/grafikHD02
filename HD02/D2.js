@@ -10,7 +10,7 @@ var gl;
 
 // numCirclePoints er fjöldi punkta í hringnum
 // Heildarfjöldi punkta er tveimur meiri (miðpunktur + fyrsti punktur kemur tvisvar)
-var numCirclePoints = 100 ;       
+var numCirclePoints = 60 ;       
 
 var radius = 0.4;
 var center = vec2(0, 0);
@@ -52,7 +52,7 @@ window.onload = function init() {
 // Create the points of the circle
 function createCirclePoints( cent, rad, k )
 {
-    var dAngle = 2*Math.PI/k*2.95;
+    var dAngle = 3*2*Math.PI/k; 
     for( i=k; i>=0; i-- ) {
         points.push( center );
     	a = (i-1)*dAngle;
